@@ -5,19 +5,18 @@ Utilizes the UMLS-api developed by Richard Odwyer at https://github.com/odwyerso
 
 ## Installation
 
-Just download the file and run it in terminal.
+Download the folder.
 
 ## Example Usage
 
+Add a text file to the downloaded folder with the text you want to normalize.
 ```bash
-/usr/local/bin/python3 medical_term_normalization.py "PATH" "MEDICAL TERM"
+$ /usr/local/bin/python3 medical_term_normalization.py "PATH OF TEXT TO NORMALIZE" "MEDICAL TERM"
 ```
-Replace the text in quotes with the actual PATH and term to normalize.
+Set the directory to the PATH of the downloaded folder. Replace the text in quotes with the actual PATH and term to normalize.
 
-## Test
-
+## Test Usage
 ```bash
-pip install -r requirements-dev.txt
-pytest src/tests
-flake8
+$ /usr/local/bin/python3 medical_term_normalization.py "sample_text.txt" "weight loss"
+admission:        i/o:  no intake or output data in the 24 hours ending 1/1/2035 1400      physical exam:  gen: elderly woman, some normalized weight loss, nad, pleasant, speaks tigrinya  heent: perrl, no lad, mmm  cv: nl s1 and s2, rrr, no m/r/g  pulm: ctab, no wheezes, rales or ronchi. breathing comfortably on room air.   gi: soft, nt, nd, +bs. no guarding or rebound tenderness.   ext: no peripheral edema, wwp  neuro: a&o x 3, eom intact, face symmetric     labs/data:   bmp        1/1/2035  1433 
 ```
