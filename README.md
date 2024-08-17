@@ -17,7 +17,7 @@ Set the directory of the console to the PATH of the downloaded folder. Replace t
 
 Paste in the UMLS API key into the first argument.
 
-You can apply for a UMLS API key at this link: https://uts.nlm.nih.gov/uts/login\
+You can apply for a UMLS API key at this link: https://uts.nlm.nih.gov/uts/login
 
 It takes approximately 1-2 business to acquire one.
 
