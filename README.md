@@ -13,9 +13,9 @@ Add a text file to the downloaded folder with the text you want to normalize.
 ```bash
 $ /usr/local/bin/python3 medical_term_normalization.py "UMLS API KEY" "PATH OF TEXT TO NORMALIZE" "MEDICAL TERM"
 ```
-Set the directory of the console to the PATH of the downloaded folder. Replace the text in quotes with the actual PATH and term to normalize.\
+Set the directory of the console to the PATH of the downloaded folder. Replace the text in quotes with the actual PATH and term to normalize.
 
-Paste in the UMLS API key into the first argument.\
+Paste in the UMLS API key into the first argument.
 
 You can apply for a UMLS API key at this link: https://uts.nlm.nih.gov/uts/login\
 
