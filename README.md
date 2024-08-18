@@ -27,7 +27,7 @@ $ /usr/local/bin/python3 medical_term_normalization.py "sample_text.txt" "weight
 admission:        i/o:  no intake or output data in the 24 hours ending 1/1/2035 1400      physical exam:  gen: elderly woman, some normalized weight loss, nad, pleasant, speaks tigrinya  heent: perrl, no lad, mmm  cv: nl s1 and s2, rrr, no m/r/g  pulm: ctab, no wheezes, rales or ronchi. breathing comfortably on room air.   gi: soft, nt, nd, +bs. no guarding or rebound tenderness.   ext: no peripheral edema, wwp  neuro: a&o x 3, eom intact, face symmetric     labs/data:   bmp        1/1/2035  1433 
 ```
 
-##Python Package Dependencies
+## Python Package Dependencies
 
 The following packages need to be pip installed in order to ensure the pipeline functions.
 ```bash
