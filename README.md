@@ -19,7 +19,7 @@ Paste in the UMLS API key into the first argument.
 
 You can apply for a UMLS API key at this link: https://uts.nlm.nih.gov/uts/login
 
-It takes approximately 1-2 business to acquire one.
+It takes approximately 1-2 business days to acquire one.
 
 ## Test Usage
 ```bash
