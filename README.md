@@ -31,7 +31,6 @@ admission:        i/o:  no intake or output data in the 24 hours ending 1/1/2035
 
 The following packages need to be pip installed in order to ensure the pipeline functions.
 ```bash
-$ pip3 install nltk
 $ pip3 install requests
 $ pip3 install nltk
 $ pip3 install argparse
